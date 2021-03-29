@@ -1,0 +1,12 @@
+#Alex Cummins
+#Text Dungeon Alpha
+#TEXT_DUNGEON README file
+
+This project is a demo text dungeon game in developement.
+
+To use the system, all the files included must be in the same directory folder.
+The user is meant to run the conda_main.py file. All other files are pulled into this one.
+
+For more information, contact Alex Cummins at axcummins@gmail.com.
+
+>Hosted on Google Drive<
