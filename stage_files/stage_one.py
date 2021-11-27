@@ -8,5 +8,4 @@ from colors import *
 def stage_one_function():
 
     sys.stdout.write(RED)
-    print("")
-    print("This is a placeholder for stage #1!")
+    print("\n>This is a placeholder for stage #1!")
