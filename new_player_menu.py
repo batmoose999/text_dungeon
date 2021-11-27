@@ -4,9 +4,9 @@
 
 import sys
 from colors import *
-from knight_stat_page import knight_stat_function
-from mage_stat_page import mage_stat_function
-from mercenary_stat_page import mercenary_stat_function
+from character_profiles.knight_stat_page import knight_stat_function
+from character_profiles.mage_stat_page import mage_stat_function
+from character_profiles.mercenary_stat_page import mercenary_stat_function
 from stage_files.stage_one import stage_one_function
 
 def new_player_function():
