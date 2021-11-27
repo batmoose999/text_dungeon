@@ -7,6 +7,7 @@ from colors import *
 from knight_stat_page import knight_stat_function
 from mage_stat_page import mage_stat_function
 from mercenary_stat_page import mercenary_stat_function
+from stage_files.stage_one import stage_one_function
 
 def new_player_function():
     sys.stdout.write(BLUE)
@@ -27,6 +28,7 @@ def new_player_function():
     class_confirmation = input("Confirm Class Selection? (y or n)").lower()
     if class_confirmation == "y":
         print("\nProceed Ahead!")
+        stage_one_function()
     elif class_confirmation == "n":
         new_player_function()
     else:
